@@ -1,0 +1,87 @@
+
+.event {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.image {
+    flex-grow: 1;
+    padding: 11px;
+}
+
+.con {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.img1 {
+    position: relative;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.name {
+    position: relative;
+    left: 40%;
+}
+
+.book {
+    display: flex;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    justify-content: center;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.book:hover {
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(217, 4, 4, 0.47);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(217, 4, 4, 0.47);
+    box-shadow: 0px 0px 10px 5px rgba(217, 4, 4, 0.47);
+}
+
+img {
+    height: 100px;
+    border-radius: 100px;
+}
+
+.whole {
+    background-color: rgb(229, 124, 124);
+    border: solid wheat;
+    border-radius: 20px;
+    padding: 10px;
+}
+.cont:hover{
+    -webkit-box-shadow: 2px 5px 22px 5px rgba(0,0,0,0.46);
+    -moz-box-shadow: 2px 5px 22px 5px rgba(0,0,0,0.46);
+    box-shadow: 2px 5px 22px 5px rgba(0,0,0,0.46);
+}
